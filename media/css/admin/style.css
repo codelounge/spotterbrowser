@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+
+/* ------------------------------------------------------------------------------------------------
+|  Design Basics. Globals
+ ----------------------------------------------------------------------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f1f5fa;
+
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.clear { clear: both; }
+
+a { color: #0043a4; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+#page {
+	background: #FFFFFF;
+	margin: 0 auto auto 0;
+}
+
+#header {
+	background: #0043a4;
+	color: #FFFFFF;
+	height: 80px;
+}
+
+#header_text {
+	width: 500px;
+	padding-left: 15px;
+	padding-top: 40px;
+	font-size: 24px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+#header_version {
+	width: 150px;
+	text-align: right;
+	padding-right: 15px;
+	padding-top: 50px;
+	font-size: 14px;
+}
+
+#navspacer {
+	background: #f1f5fa;
+	height: 8px;
+}
+	
+
+#content_wrapper {
+	background: #ffffff url('../../images/installer/content_bg.png') repeat-y ;
+	padding: 0px 0 0px 0px
+}
+
+#sidebar { width: 250px; float: left;padding-top: 15px;}
+#content { float: left; padding: 15px; }
+
+#footer {
+    background-color: #192B40;
+    color: #FFFFFF;
+    font-size: 11px;
+    margin: auto 0 0 250px;
+    padding: 6px;
+    text-align: center;
+}
+
+
+.sidebarsectionheadline {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 5px 5px 15px;
+}
+
+.sidebarlist {
+	list-style: none;
+	padding-left: 30px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.section {
+	padding-bottom: 15px
+ }
+
+.currentsection {
+	background: #ffffff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+}
+
+table { margin: 20px 0; }
+
+table th {
+	border-bottom: 2px solid #ccc;
+	padding: 3px;
+}
+
+table td {
+	padding: 3px;
+	 border-bottom: 1px dotted #ccc;
+}
+
+.ajaxheader {
+	padding: 12px 5px 5px 5px;
+	background: #0043a4;
+	color: #FFFFFF;
+}
+	
+.ajaxheadertext {
+	font-variant: small-caps;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#lokal-dialog-message { 
+	display: none;
+}
+
+.ui-autocomplete-loading { background: white url('../../images/ui-anim_basic_16x16.gif') right center no-repeat; }

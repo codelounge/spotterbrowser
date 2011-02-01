@@ -1,0 +1,210 @@
+@CHARSET "UTF-8";
+
+/* ------------------------------------------------------------------------------------------------
+|  Design Basics. Globals
+ ----------------------------------------------------------------------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {border: 0;}
+
+body {
+	background: #222222;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+	margin: 20px 0;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.clear { clear: both; }
+
+#page {
+	margin: 0 auto 0 auto;
+	width: 800px;
+}
+
+#header {
+	background: #333333;
+	color: #FFFFFF;
+	font-size: 18px;
+	padding: 30px 0px 15px 15px;
+	font-variant: small-caps;
+	-moz-border-radius-topleft:12px;
+	-webkit-border-radius-topleft: 12px;
+	-moz-border-radius-topright:12px;
+	-webkit-border-radius-topright: 12px;
+}
+
+#footer {
+	background: #333333;
+	padding: 0 0 10px 0px;
+	-moz-border-radius-bottomleft:12px;
+	-webkit-border-radius-bottomleft: 12px;
+	-moz-border-radius-bottomright:12px;
+	-webkit-border-radius-bottomright: 12px;	
+}
+
+#footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+.footercolumn {
+	margin: 10px;
+	width: 240px;
+}
+
+#searchpanel {
+	margin-bottom: 40px;
+	background: #CCCCCC;
+	color: #222222;
+	padding: 6px 3px 6px 3px;
+}
+
+#searchpanel dd, dt {
+	padding: 3px;
+	height: 20px;
+}
+
+.col1 {
+	width: 110px;
+	clear: both;
+	float: left;
+}
+
+.col2 {
+	width: 374px;
+		float: left;
+}
+
+.col3 {
+	width: 90px;
+	clear: both;
+		float: left;
+}
+
+.col4 {
+	width: 194px;
+		float: left;
+}
+
+#resultdata dd,dt {
+		padding: 3px;
+	height: 14px;
+}
+
+#resultdata .name {
+float: left;
+width: 120px;
+font-weight: bold;
+}
+
+.resultdata .data {
+float: left;
+width: 400px;
+}
+
+
+.resultlistitem {
+	margin: 10px 0;
+	border-bottom: 1px solid #666;
+	padding-bottom: 10px;
+}
+	
+/* --- Pagination ----------------------------------------------------- */
+.pagination { 
+	padding: 10px 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+.pagination a {
+border: 1px solid #666666;
+padding: 3px;
+text-decoration: none;
+color: #666666;
+}
+
+.pagination a:hover {
+background: #eeeeee;
+color: #333333;
+}
+
+
+.pagingelement_active {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 5px;
+	vertical-align: baseline;
+}
+
+.pagingelement_no_link {
+	border: 1px solid #ddd;
+	color: #ccc;
+	padding: 3px;
+}
+
+
+
+
+#poweredby {
+	    widht: 600px;
+   }
+
+#poweredby {
+	height:60px;
+	padding:20px 0 0 100px;
+	position:relative; 
+	border-bottom:1px solid #2a2f39;
+}	
+
+#poweredby .label {
+	position:absolute;	
+	left: 20px;
+	bottom:22px;
+}
+
+#poweredby a {
+	background:url(../../images/logos.png) no-repeat;	
+	height:50px;
+	float:left;
+	margin:0 10px 0 0;
+}
+
+#poweredby .zf {
+	width: 126px;
+	background-position:0px 0px;
+}
+
+#poweredby .extjs {
+	width: 100px;
+	background-position:-140px 0px;
+}
+
+#poweredby .php {
+	width: 60px;
+	background-position:-240px 0px;
+}
+
+#poweredby .mysql {
+	width: 90px;
+	background-position:-300px 0px;
+}
+
+#poweredby .jquery {
+	width: 130px;
+	background-position:-390px 0px;
+}
+
+#buttonnavigation {
+	padding: 10px 0;
+}

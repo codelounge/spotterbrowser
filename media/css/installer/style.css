@@ -1,0 +1,140 @@
+@CHARSET "UTF-8";
+
+/* ------------------------------------------------------------------------------------------------
+|  Design Basics. Globals
+ ----------------------------------------------------------------------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #689ab5 url('../../images/installer/background.jpg') no-repeat center;
+	background-attachment: fixed;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.clear { clear: both; }
+
+#page {
+	width: 960px;
+	background: #FFFFFF;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	margin: 100px auto 20px auto;
+	padding: 20px 0;
+}
+
+#main_wrapper {
+	margin: 0 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+#header {
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	-webkit-border-radius-topleft: 20px;
+	-webkit-border-radius-topright: 20px;
+	background: #3666a4;
+	height: 100px;
+	position: relative;
+	color: #FFFFFF;
+}
+
+#header_text {
+	width: 500px;
+	padding-left: 15px;
+	padding-top: 60px;
+	font-size: 24px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+	
+#header_version {
+	width: 100px;
+	text-align: right;
+	padding-right: 15px;
+	padding-top: 68px;
+	font-size: 16px;
+}
+
+#content_wrapper {
+	background: #ffffff url('../../images/installer/content_bg.png') repeat-y ;
+	-moz-border-radius-bottomleft: 20px;
+	-webkit-border-radius-bottomleft: 20px;
+	padding: 10px 0 0px 0;
+}
+
+#sidebar {
+	float: left;
+	width: 230px;
+	padding: 0 10px;
+}
+
+#content {
+	float: left;
+	width: 650px;
+	padding: 0 0px 0 20px;
+}
+
+.sidebar_head {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#sidebar_list {
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+#sidebar_list ol li {
+	margin-bottom: 8px;
+}
+	
+#sidebar_list .current {
+	font-weight: bold;
+}
+
+#sidebar_list .finished {
+	color: #ccc;
+}
+
+#progressbar {
+	margin: 10px 0 20px 0;
+}
+
+#footer {
+	width: 650px;
+	text-align: right;
+	border-top: 1px solid #3666a4;
+	padding-top: 5px;
+	margin-top: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #3666a4;
+}
+
+#content table  {
+font-size: 14px;
+}
+
+#content td {
+	padding: 5px;
+	border-bottom: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+}
+.row1 {
+	background: #E1ECF9; /* #D6E6F9; */
+	font-weight: bold;
+}
+
+.row2 {
+	background: #f1f5fa;
+}

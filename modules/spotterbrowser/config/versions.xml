@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<versions>
+	<version>
+		<code>400a1</code>
+		<name>4.0.0 Alpha 1</name>
+		<description>4.0.0 Alpha 1</description>
+	</version>
+	<version>
+		<code>400a2</code>
+		<name>4.0.0 Alpha 2</name>
+		<description>4.0.0 Alpha 2</description>
+		<latest>1</latest>
+	</version>
+</versions>
